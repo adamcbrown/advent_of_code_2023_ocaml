@@ -17,6 +17,7 @@ let () =
   let part1, part2 = match !day with
   | 1 -> Advent_of_code_2023.Day_01.(part1, part2)
   | 2 -> Advent_of_code_2023.Day_02.(part1, part2)
+  | 3 -> Advent_of_code_2023.Day_03.(part1, part2)
   | _ -> raise (Failure "Unknown Day") in
   let part = match !pt2 with
   | true -> part2
